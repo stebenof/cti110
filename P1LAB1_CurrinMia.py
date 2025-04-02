@@ -1,16 +1,26 @@
 #Mia Currin
-#4/1/25
-#P1LAB1
-#Intro to Python
+#4/2/2025
+#P1HW1
+#Create program to do basic arithmetic functions
 
-print('Enter your first name:', end='   ')
-first_name= input()
-print('Enter your last name:', end='   ')
-last_name= input()
-print('Hello,', first_name, last_name,'! Welcome to CTI-110')
+print('-----Calculating Exponents----')
+print()
+print('Enter an integer as the base value:', end='    ')
+base_value=int(input())
 
+print('Enter an integer as the exponent:', end='    ')
+exponent_value=int(input())
+print()
+print(base_value, 'raised to the power of', exponent_value, 'is', base_value**exponent_value, '!!')
+print()
+print('-----Addition and Subtraction----')
+print()
+print('Enter a starting integer:', end='    ')
+starting=int(input())
+print('Enter an integer to add:', end='    ')
+add_num=int(input())
+print('Enter an integer to subtract:', end='    ')
+sub_num=int(input())
+print()
+print(starting, '+', add_num, '-', sub_num, 'is equal to', starting+add_num-sub_num)
 
-
-
-
-      
